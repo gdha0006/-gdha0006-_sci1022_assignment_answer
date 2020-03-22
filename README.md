@@ -20,6 +20,8 @@ csih/          gawk/         libbash.dll.a*  perl5/             sasl2_3/  termin
   100 180k  100  180k   0     0       66983          0        00:00:02    00:00:02    --:--:--     66983
  wc hamlet.txt
 5307 32252 1884406 hamlet.txt
-4. head -n 3447 hamlet.txt | tail -n 3447 | wc
-3447  21172  121846
-5. grep 
+4. head -n 3447 hamlet.txt | tail -1 
+Is thought-sicke at the act
+5. grep -i hamlet hamlet.txt | wc 
+109 702 4278
+109 lines
